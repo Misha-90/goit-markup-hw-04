@@ -201,6 +201,18 @@ color: var(--first-text-color);
 .pb-none {
 	padding-bottom: 0;
 }
+
+/* hang */
+.hang-item-box {
+	width: 270px;
+	height: 120px;
+	border-radius: 4px;
+	background-color: var(--second-backround-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .hang-list {
 	display: flex;
 	gap: 30px;
@@ -214,6 +226,7 @@ color: var(--first-text-color);
 	text-transform: uppercase;
 	color: var(--first-title-color);
 	margin-bottom: 10px;
+	margin-top: 30px;
 }
 .hang-text {
 	font-weight: 400;
@@ -315,6 +328,41 @@ margin-bottom: 16px;
 .team-soc-link:focus .team-soc-icon {
 	fill: #FFFFFF;
 }
+
+/* <!-- regular customer --> */
+.customer-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--first-title-color);
+	margin: 0 auto 50px;
+}
+
+.customer-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.customer-link {
+	width: 170px;
+	height: 92px;
+	background-color: transparent;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+}
+.customer-icon {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	fill: #188CE8;
+}
+
+
 /*<!--footer-->*/
 .footer {
 	background-color: #2F303A;
