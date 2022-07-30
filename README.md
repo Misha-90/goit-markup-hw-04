@@ -12,3 +12,5 @@
   clip-path: inset(50%);
   margin: -1px;
 } -->
+
+<!-- width="20px" height="20px" -->
